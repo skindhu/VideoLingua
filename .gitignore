@@ -6,3 +6,4 @@ __pycache__
 **/*.markdown
 **/*.json
 **/*.jsonl
+**/.DS_Store
