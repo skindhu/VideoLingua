@@ -224,3 +224,6 @@ python -m test.test_real_summary
 - 字幕烧录功能需要安装FFmpeg
 - 使用GPU可以显著加快字幕提取速度
 - **地区限制**：Google Gemini API在某些地区可能不可用。如果您收到"User location is not supported"错误，请使用原始语言字幕类型(original)，或考虑使用VPN服务
+
+## 若希望了解更多AI探索相关的内容，可关注作者公众号
+<img src="https://wechat-account-1251781786.cos.ap-guangzhou.myqcloud.com/wechat_account.jpeg" width="30%">
