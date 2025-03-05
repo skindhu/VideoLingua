@@ -122,7 +122,7 @@ python -m subtitle_extractor.whisper_subtitle_extractor 视频文件路径 [选�
 python -m translation.subtitle_translator_cli 字幕文件路径 [选项]
 ```
 
-详细说明请参阅[字幕翻译模块文档](translation/README.md)。
+详细说明请参阅[字幕翻译模块文档](subtitle_translator/README.md)。
 
 #### 3. 字幕烧录
 
