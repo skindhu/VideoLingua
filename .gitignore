@@ -1,0 +1,8 @@
+**/__pycache__
+__pycache__
+**/*.srt
+**/*.vtt
+**/*.txt
+**/*.markdown
+**/*.json
+**/*.jsonl
