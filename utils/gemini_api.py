@@ -35,7 +35,7 @@ class GeminiAPI:
             raise ValueError("必须提供Gemini API密钥，可以通过参数传入、环境变量GEMINI_API_KEY设置或保存在配置文件中")
 
         # 使用gemini-2.0-flash模型：generativelanguage.googleapis.com
-        self.api_url = "https://test-wrobot.testsite.woa.com/gemini/v1beta/models/gemini-2.0-flash:generateContent"
+        self.api_url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
         logger.info(f"初始化Gemini API，使用URL: {self.api_url}")
         logger.info(f"API密钥: {self.api_key[:5]}...{self.api_key[-5:] if len(self.api_key) > 10 else ''}")
         self.session = requests.Session()
